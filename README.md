@@ -7,12 +7,7 @@ This application is a simple calculator with additional functions. It allows you
 Calculator Plus is a feature-rich Android calculator app that goes beyond basic arithmetic, offering powerful tools for everyday calculations, health metrics, conversions, and time management. Designed with a clean interface and intuitive navigation, it's your all-in-one calculation companion.
 
 ---
-![1129204746940]([https://user-images.githubusercontent.com](https://github.com/)/Simple-Calculator/blob/main/app/src/main/plus1%20(1).jpg)
-![1129204746940](https://user-images.githubusercontent.com/Simple-Calculator/blob/main/app/src/main/plus1%20(2).jpg)
-![1129204746940](https://user-images.githubusercontent.com/Simple-Calculator/blob/main/app/src/main/plus1%20(3).jpg)
-![1129204746940](https://user-images.githubusercontent.com/Simple-Calculator/blob/main/app/src/main/plus1%20(4).jpg)
-![1129204746940](https://user-images.githubusercontent.com/Simple-Calculator/blob/main/app/src/main/plus1%20(5).jpg)
-![1129204746940](https://user-images.githubusercontent.com/Simple-Calculator/blob/main/app/src/main/plus1%20(6).jpg)
+![alt text](https://github.com/DrongoSV/Simple-Calculator/blob/main/app/src/main/plus1%20(2).jpg)
 
 ### ✨ Key Features
 
@@ -92,3 +87,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Get accurate calculations, track your history, and manage conversions - all in one powerful app!**
 
+![alt text](https://github.com/DrongoSV/Simple-Calculator/blob/main/app/src/main/plus1%20(1).jpg)
+![alt text](https://github.com/DrongoSV/Simple-Calculator/blob/main/app/src/main/plus1%20(3).jpg)
+![alt text](https://github.com/DrongoSV/Simple-Calculator/blob/main/app/src/main/plus1%20(4).jpg)
+![alt text](https://github.com/DrongoSV/Simple-Calculator/blob/main/app/src/main/plus1%20(5).jpg)
+![alt text](https://github.com/DrongoSV/Simple-Calculator/blob/main/app/src/main/plus1%20(6).jpg)
