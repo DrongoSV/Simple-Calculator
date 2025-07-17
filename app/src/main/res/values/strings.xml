@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Plus</string>
+    <string name="history">History</string>
+    <string name="clear_history">Удалить все</string>
+    <string name="delete">Удалить</string>
+    <string name="back">Назад</string>
+    <string name="settings">Настройки</string>
+    <string name="theme_mode">Темный режим</string>
+    <string name="share_app">Поделиться приложением</string>
+    <string name="report_issue">Сообщить о проблеме</string>
+    <string name="official_repo">Официальная страница</string>
+    <string name="app_version">Версия приложения: %s</string>
+    <string name="no_email_client_message">Установите почтовое приложение для отправки сообщений</string>
+    <string name="report_dialog_positive">Отправить</string>
+    <string name="report_dialog_negative">Отмена</string>
+    <string name="repo_url">https://github.com/yourusername/yourrepository</string>
+    <string name="report_dialog_title">Сообщить о проблеме</string>
+    <string name="report_dialog_message">Электронная почта для сообщений об ошибках:\n\n%s</string>
+    <string name="copy_email">Скопировать почту</string>
+    <string name="ok">ОК</string>
+    <string name="email_copied">Почта скопирована в буфер обмена</string>
+    <string name="report_dialog_message_prefix">Отправьте описание проблемы на нашу почту:</string>
+    <string name="converter">Конвертер</string>
+    <string name="bmr_calculator">BMR Калькулятор</string>
+    <string name="copy_to_clipboard">Скопировано в буфер обмена</string>
+    <string name="delete_entry_title">Удалить запись</string>
+    <string name="delete_entry_message">Вы уверены, что хотите удалить эту запись?</string>
+</resources>

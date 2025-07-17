@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Заголовок с кнопкой назад -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingBottom="24dp">
+
+            <ImageButton
+                android:id="@+id/btnBack"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_back"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BMR Калькулятор"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:paddingStart="8dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Формула Миффлина-Сан Жеора №2"
+            android:textSize="18sp"
+            android:paddingTop="7dp"/>
+        <!-- Поле для роста -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Рост (см)"
+            android:textSize="18sp"
+            android:paddingTop="16dp"/>
+
+        <EditText
+            android:id="@+id/etHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textSize="20sp"
+            android:padding="10dp"/>
+
+        <!-- Поле для веса -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Вес (кг)"
+            android:textSize="18sp"
+            android:paddingTop="16dp"/>
+
+        <EditText
+            android:id="@+id/etWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textSize="20sp"
+            android:padding="10dp"/>
+
+        <!-- Поле для возраста -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Возраст"
+            android:textSize="18sp"
+            android:paddingTop="16dp"/>
+
+        <EditText
+            android:id="@+id/etAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textSize="20sp"
+            android:padding="10dp"/>
+
+        <!-- Выбор пола -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Пол"
+            android:textSize="18sp"
+            android:paddingTop="10dp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="8dp">
+
+            <RadioButton
+                android:id="@+id/radioMale"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Мужчина"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Женщина"
+                android:textSize="14sp" />
+        </RadioGroup>
+
+        <!-- Уровень физической активности -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Физическая активность"
+            android:textSize="18sp"
+            android:paddingTop="16dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/activity_levels"
+            android:padding="12dp"/>
+
+        <!-- Кнопка расчета -->
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Рассчитать"
+            android:textSize="18sp"
+            android:layout_marginTop="18dp"/>
+
+        <!-- Результаты -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="24dp"
+            android:background="@drawable/result_background">
+
+            <TextView
+                android:id="@+id/tvBMR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BMR: "
+                android:textSize="18sp"
+                android:padding="14dp"
+                android:textColor="#333333"/>
+
+            <TextView
+                android:id="@+id/tvMaintenance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Поддержание: "
+                android:textSize="18sp"
+                android:padding="14dp"
+                android:textColor="#333333"/>
+
+            <TextView
+                android:id="@+id/tvLoss"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Снижение: "
+                android:textSize="18sp"
+                android:padding="14dp"
+                android:textColor="#333333"/>
+
+            <TextView
+                android:id="@+id/tvGain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Набор: "
+                android:textSize="18sp"
+                android:padding="14dp"
+                android:textColor="#333333"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

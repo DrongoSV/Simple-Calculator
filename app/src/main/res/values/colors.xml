@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- Светлая тема -->
+    <color name="light_background">#FFFFFF</color>
+    <color name="dark_text">#000000</color>
+    <color name="blue_dark">#2196F3</color>
+
+    <!-- Темная тема -->
+    <color name="dark_background">#121212</color>
+    <color name="blue_light">#64B5F6</color>
+    <color name="grey_light">#BDBDBD</color>
+    <color name="grey_dark">#A9A9A9</color>
+    <color name="grey_dark_very">#474a51</color>
+</resources>
